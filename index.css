@@ -1,0 +1,16 @@
+.article{
+    display: flex;
+    flex-direction: column;
+}
+
+.article>.dateInfo{
+    flex-basis: 2rem;
+    color: tomato;
+}
+
+.article>.js-clock{
+    flex-basis: 2rem;
+    font-size: 5rem;
+    text-align: center;
+    color:#7f8fa6;
+}
