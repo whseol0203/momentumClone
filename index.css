@@ -6,11 +6,40 @@
 .article>.dateInfo{
     flex-basis: 2rem;
     color: tomato;
+    text-align: center;
 }
 
 .article>.js-clock{
-    flex-basis: 2rem;
+    margin-bottom: -3rem;
     font-size: 5rem;
     text-align: center;
     color:#7f8fa6;
 }
+
+.article>.form{
+   text-align: center;
+   
+}
+
+.article>.form>input{
+    font-size: 2rem;
+    text-align: center;
+}
+
+h4{
+    font-size: 2rem;
+    text-align: center;
+    color:#74b9ff;
+}
+
+/*특정 조건을 만족할 때까지 숨겨놓는 용도*/
+.form,
+.greetings{
+    display: none;
+}
+
+/*특정 조건을 만족하면 보이게 만드는 용도*/
+.showing{
+    display: block;
+}
+
