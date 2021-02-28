@@ -11,7 +11,7 @@ function printDate(){
     var month = newDate.getMonth();
     var date = newDate.getDate();
 
-    dateInfo.innerText = `${year} 년 ${month+1} 월 ${date} 일 입니다.`;   
+    dateInfo.innerText = `${year}/${month+1}/${date}`;   
 }
 
 function printClock(){
